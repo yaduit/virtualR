@@ -15,7 +15,10 @@ export default function HeroSection() {
             <a href="#" className='bg-linear-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md'>
                 Start for free
             </a>
-            <a href="#" className="py-3 px-4 mx-3 rounded-md border">
+            <a href="#" className="py-3 px-4 mx-3 rounded-md border  border-white/20 
+           transition-all duration-300 
+           hover:bg-white hover:text-black hover:border-white
+           hover:shadow-lg hover:scale-[1.02]">
                 Documentation
             </a>
         </div>

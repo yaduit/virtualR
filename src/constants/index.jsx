@@ -1,9 +1,10 @@
-import { BotMessageSquare } from "lucide-react";
+import { BotMessageSquare, FacebookIcon } from "lucide-react";
 import { BatteryCharging } from "lucide-react";
 import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
+import { Instagram, Twitter, Facebook, MessageCircle } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -176,3 +177,28 @@ export const communityLinks = [
   { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
 ];
+
+
+ export const socialLinks = [
+    {
+      name: "Instagram",
+      icon: Instagram,
+      hover: "hover:text-pink-500"
+    },
+    {
+      name: "Twitter",
+      icon: Twitter,
+      hover: "hover:text-blue-400"
+    },
+    {
+      name: "Facebook",
+      icon: Facebook,
+      hover: "hover:text-blue-600"
+    },
+    {
+      name: "WhatsApp",
+      icon: MessageCircle,
+      url: "https://wa.me/",
+      hover: "hover:text-green-500"
+    }
+  ];
